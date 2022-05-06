@@ -25,6 +25,7 @@ public class TestMoneyCorp extends BaseUIObject{
 	@Test
 	public void TestMoneyCorp()
 	{
+		//Open URL
 		openApplication(driver,url);
 		homePage.changeLanguage("USA English");
 		homePage.clickFER();
